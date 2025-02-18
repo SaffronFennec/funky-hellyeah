@@ -29,10 +29,10 @@ trait-table-hider-name = Contortionist
 trait-table-hider-desc = You can sneak under objects like tables that no normal person should fit under.
 
 trait-strengthened-immunity-name = Strengthened Immunity
-trait-strengthened-immunity-desc = You can handle much larger doses of poison than average.
+trait-strengthened-immunity-desc = You can handle much larger doses of poison than average people.
 
 trait-stable-genes-name = Stable Genes
-trait-stable-genes-desc = Your genes are more stable, you take less radiation damage and genetic damage by around half.
+trait-stable-genes-desc = Your genes are more stable, you take less radiation damage and genetic damage.
 
 trait-resourceful-name = Resourceful
 trait-resourceful-desc = You hide things on your body to an expert degree. Right Click > open storage. Storage can be open by others also! 3x3.
