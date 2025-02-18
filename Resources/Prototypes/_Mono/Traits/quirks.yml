@@ -17,3 +17,18 @@
   cost: 8
   components:
   - type: SelfAware
+
+- type: trait
+  id: ClumsyTrait
+  name: trait-clumsy-name
+  description: trait-clumsy-description
+  category: Quirks
+  cost: -5 # Funky - Half of pacifist really, plus the tables.
+  components:
+  - type: Clumsy
+    gunShootFailDamage:
+      types:
+        Blunt: 5
+        Piercing: 4
+      groups:
+        Burn: 3
