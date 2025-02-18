@@ -9,3 +9,6 @@ trait-heavyweight-name = You can really hold your drinks. Comparatively, the ave
 
 trait-natural-regeneration-name = Heightened Regeneration
 trait-natural-regeneration-desc = You slowly heal even when you are over the regeneration cap, and heal more below it.
+
+trait-hemophiliac-name = Hemophiliac
+trait-hemophiliac-name = Your blood takes much longer to clot, thus you take much much more bleed damage, 4x.
