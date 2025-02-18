@@ -10,7 +10,7 @@
 - type: traitCategory
   id: Quirks
   name: trait-category-quirks
-  maxTraitPoints: 4 # Mono
+  maxTraitPoints: 1 # Funky
 
 - type: traitCategory # Funky Station
   id: AlcoholTolerance
