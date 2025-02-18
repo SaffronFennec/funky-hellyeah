@@ -5,7 +5,7 @@
   category: Quirks
   cost: 4
   components:
-    - type: LiquorLifeline 
+  - type: LiquorLifeline 
   speciesRestrictions:
   - Dwarf
 
@@ -16,4 +16,4 @@
   category: Quirks
   cost: 8
   components:
-    - type: SelfAware
+  - type: SelfAware
