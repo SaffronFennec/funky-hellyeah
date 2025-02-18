@@ -6,3 +6,6 @@ trait-self-aware-description = You can examine yourself to see damage like a hea
 
 self-aware-examinable-verb-text = Check Damage
 self-aware-examinable-verb-message = Check Damage 
+
+trait-clumsy-name = Clumsy
+trait-clumsy-description = Whoops! You are as clumsy as a clown, and cannot use ranged weapons or jump on tables.
