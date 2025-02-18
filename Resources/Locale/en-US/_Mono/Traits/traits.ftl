@@ -1,4 +1,3 @@
-! Drunk Resilience = Renamed Drunk Lifeline, Funky Station.
 drunken-resilience-trait-name = Drunken Resilience 
 drunken-resilience-trait-desc = Nothing like a good drink to make you feel on top of the world. Whenever you're drunk, you slowly recover from injuries.
 
