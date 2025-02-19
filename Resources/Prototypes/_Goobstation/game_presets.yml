@@ -75,7 +75,8 @@
     - CalmTraitor
     - BasicStationEventScheduler
     #- MeteorSwarmScheduler Goobstation - nuh uh
-
+    - BasicRoundstartVariation
+    
 - type: gamePreset
   id: RevLing
   alias:
@@ -90,7 +91,6 @@
   #  - SubGamemodesRule
     - BasicStationEventScheduler
     #- MeteorSwarmScheduler Goobstation - nuh uh
-    - BasicRoundstartVariation
     - BasicRoundstartVariation
 
 - type: gamePreset
