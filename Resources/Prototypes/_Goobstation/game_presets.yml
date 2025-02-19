@@ -9,7 +9,7 @@
   showInVote: false
   rules:
     - Changeling
-    - SubGamemodesRule
+  #  - SubGamemodesRule - funky
     - BasicStationEventScheduler
     #- MeteorSwarmScheduler Goobstation - nuh uh
     - BasicRoundstartVariation
@@ -25,7 +25,7 @@
   rules:
     - CalmLing
     - CalmTraitor
-    - SubGamemodesRule
+  #  - SubGamemodesRule - funky
     - BasicStationEventScheduler
     #- MeteorSwarmScheduler Goobstation - nuh uh
     - BasicRoundstartVariation
@@ -87,7 +87,7 @@
   rules:
     - CalmRevs
     - CalmLing
-    - SubGamemodesRule
+  #  - SubGamemodesRule
     - BasicStationEventScheduler
     #- MeteorSwarmScheduler Goobstation - nuh uh
     - BasicRoundstartVariation
