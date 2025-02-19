@@ -32,3 +32,14 @@
         Piercing: 4
       groups:
         Burn: 3
+
+- type: trait
+  id: Frail # Funky - Renamed from osteogenesis imperfecta
+  name: trait-frail-name
+  description: trait-frail-desc
+  category: Quirks
+  cost: -8 # Effectively a major combat debuff and survival debuff. Also the Pac-Frail combo shouldn't br higher than blindness.
+  components:
+  - type: BrittleBones
+  speciesRestrictions:
+  - IPC
