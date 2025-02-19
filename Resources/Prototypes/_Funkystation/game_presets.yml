@@ -15,8 +15,8 @@
 - type: gamePreset
   id: HereticTraitor
   alias:
-  - heretics
-  - heret
+  - heretictot
+  - traitorheretic
   name: heretics-gamemode-title
   description: heretics-gamemode-description
   showInVote: false
@@ -48,13 +48,133 @@
   alias:
   - BlobTot
   - TotsBlob
+  - TraitorBlob
   name: blob-title
   description: blob-description
   showInVote: false
   rules:
   - CalmTraitor
   - BlobGameMode
-  - SubGamemodesRule
+ # - SubGamemodesRule
+  - BasicStationEventScheduler
+  #- AntagStationEventScheduler
+  - BasicRoundstartVariation
+
+- type: gamePreset
+  id: BlobLing
+  alias:
+  - LingBlob
+  name: blob-title
+  description: blob-description
+  showInVote: false
+  rules:
+  - CalmLing
+  - BlobGameMode
+ # - SubGamemodesRule
+  - BasicStationEventScheduler
+  #- AntagStationEventScheduler
+  - BasicRoundstartVariation
+
+- type: gamePreset
+  id: BlobHeretic
+  alias:
+  - BlobHere
+  - HereBlob
+  - HereticBlob
+  name: blob-title
+  description: blob-description
+  showInVote: false
+  rules:
+  - CalmHeretic
+  - BlobGameMode
+ # - SubGamemodesRule
+  - BasicStationEventScheduler
+  #- AntagStationEventScheduler
+  - BasicRoundstartVariation
+
+- type: gamePreset
+  id: NukeHeretic
+  alias:
+    - nuketot
+    - optraitor
+    - optot
+  name: nukeops-title
+  description: nukeops-description
+  showInVote: false
+  rules:
+    - Calmops
+    - CalmHeretic
+    - BasicStationEventScheduler
+    - BasicRoundstartVariation
+
+- type: gamePreset
+  id: NukeThief
+  alias:
+    - nukethief
+    - opthief
+    - thiefops
+  name: nukeops-title
+  description: nukeops-description
+  showInVote: false
+  rules:
+    - Calmops
+    - Thief
+    - BasicStationEventScheduler
+    - BasicRoundstartVariation
+
+- type: gamePreset
+  id: RevThief
+  alias:
+    - revthief
+    - thiefrevs
+  name: rev-title
+  description: rev-description
+  showInVote: false
+  rules:
+    - CalmRevs
+    - Thief
+    - BasicStationEventScheduler
+    - BasicRoundstartVariation
+
+- type: gamePreset
+  id: TraitorThief
+  alias:
+  - totthief
+  - thieftraitor
+  name: traitor-gamemode-title
+  description: traitor-gamemode-description
+  showInVote: false
+  rules:
+  - Thief
+  - CalmTraitor
+  - BasicStationEventScheduler
+  - BasicRoundstartVariation
+  
+- type: gamePreset
+  id: HereticThief
+  alias:
+  - herethief
+  - thiefheretic
+  name: heretics-gamemode-title
+  description: heretics-gamemode-description
+  showInVote: false
+  rules:
+  - CalmHeretic
+  - Thief
+  - BasicStationEventScheduler
+  #- AntagStationEventScheduler
+  - BasicRoundstartVariation
+
+- type: gamePreset
+  id: ChangelingThief
+  alias:
+  - thiefling
+  name: changeling-gamemode-title
+  description: changeling-gamemode-description
+  showInVote: false
+  rules:
+  - Thief
+  - CalmLing
   - BasicStationEventScheduler
   #- AntagStationEventScheduler
   - BasicRoundstartVariation
