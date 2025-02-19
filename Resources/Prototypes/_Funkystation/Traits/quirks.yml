@@ -80,8 +80,8 @@
   cost: 2 # About as strong as winter boots each way, firmly a minor trait
   components:
   - type: TemperatureProtection 
-          heatingCoefficient: 0.4
-          coolingCoefficient: 0.4
+    heatingCoefficient: 0.4
+    coolingCoefficient: 0.4
 
 - type: trait
   id: TableHider
