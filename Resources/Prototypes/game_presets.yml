@@ -156,7 +156,7 @@
   showInVote: false
   rules:
     - Traitor
-    - SubGamemodesRule
+  #  - SubGamemodesRule - funky
     - BasicStationEventScheduler
   #  - MeteorSwarmScheduler Goobstation - nuh uh
     - SpaceTrafficControlEventScheduler
@@ -184,7 +184,7 @@
   showInVote: false
   rules:
     - Nukeops
-    - SubGamemodesRule
+  #  - SubGamemodesRule - funky
     - BasicStationEventScheduler
   #  - MeteorSwarmScheduler Goobstation - nuh uh
     - SpaceTrafficControlEventScheduler
@@ -201,7 +201,7 @@
   showInVote: false
   rules:
     - Revolutionary
-    - SubGamemodesRule
+  #  - SubGamemodesRule - funky
     - BasicStationEventScheduler
   #  - MeteorSwarmScheduler Goobstation - nuh uh
     - SpaceTrafficControlEventScheduler
