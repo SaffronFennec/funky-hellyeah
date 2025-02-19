@@ -15,8 +15,8 @@
     agentName: heretic-roundend-name
     definitions:
     - prefRoles: [ Heretic ]
-      max: 2
-      playerRatio: 25
+      max: 6 # Funky
+      playerRatio: 15 # Funky
       lateJoinAdditional: true
       mindRoles:
       - MindRoleHeretic
@@ -29,13 +29,13 @@
   - type: GameRule
     minPlayers: 20
     delay:
-      min: 30
-      max: 60
+    #  min: 30
+    #  max: 60
   - type: AntagSelection
     selectionTime: BeforeJobs
     agentName: heretic-roundend-name
     definitions:
     - prefRoles: [ Heretic ]
-      max: 2
-      playerRatio: 18
+      max: 4 # Funky
+      playerRatio: 20 # Funky
       lateJoinAdditional: true
