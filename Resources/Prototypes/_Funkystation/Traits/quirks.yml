@@ -109,14 +109,13 @@
   id: StableGenes
   name: trait-stable-genes-name
   description: trait-stable-genes-desc
-  cattegory: Quirks
+  category: Quirks
   cost: 2 # Extremely situational and decently weak
   components:
   - type: Armor
     modifiers:
-      coefficients: # Change it to 0.8 when the less muations part can be added [genetics]
-        Radiation: 0.6
-        Celluar: 0.6
+      coefficients: # Change it to 0.75 when the less muations part can be added [genetics] - And no, no celluar defense.
+        Radiation: 0.5
 
 - type: trait
   id: Resourceful
@@ -133,3 +132,27 @@
     maxItemSize: Small
   speciesRestrictions:
   - Slime # They already have a storage, albeit smaller.
+
+- type: trait
+  id: LizardDragger
+  name: trait-lizard-dragger-name
+  description: trait-lizard-dragger-desc
+  category: Quirks
+  cost: 8
+  components:
+  - type: Puller
+    needsHands: false
+  speciesRestrictions:
+  - Reptilian
+
+- type: trait
+  id: Acrobat
+  name: trait-acrobat-name
+  description: trait-acrobat-desc
+  category: Quirks
+  cost: 3 # Passive like drunk res and careful steps but very situational.
+  components:
+  - type: MovementSpeedModifier
+    weightlessAcceleration: 1.75 # 50% of a moth's buff
+  speciesRestrictions:
+  - Moth
