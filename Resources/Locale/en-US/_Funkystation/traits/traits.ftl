@@ -36,3 +36,9 @@ trait-stable-genes-desc = Your genes are more stable, you take less radiation da
 
 trait-resourceful-name = Resourceful
 trait-resourceful-desc = You hide things on your body to an expert degree. Right Click > open storage. Storage can be open by others also! 3x3.
+
+trait-lizard-dragger-name = Busy Hands
+trait-lizard-dragger-desc = You can drag without a hand, like Lizards can.
+
+trait-acrobat-name = Acrobat
+trait-acrobat-desc = You move much faster in low-gravity, similar to a moth.
