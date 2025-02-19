@@ -4,7 +4,7 @@
   name: trait-pacifist-name
   description: trait-pacifist-desc
   category: Quirks
-  cost: -10
+  cost: -8
   components:
   - type: Pacified
 
@@ -68,7 +68,7 @@
   name: trait-muted-name
   description: trait-muted-desc
   category: Quirks
-  cost: -8
+  cost: -6 # Funky - Not a terrible debuff, also having it high's pretty abusable.
   blacklist:
     components:
       - BorgChassis
