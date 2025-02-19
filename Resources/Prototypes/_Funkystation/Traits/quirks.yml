@@ -52,14 +52,14 @@
   name: ttrait-careful-steps-name
   description: trait-careful-steps-desc
   category: Quirks
-  cost: 4
-  components: # Slower than galoshes, hurts no slip users
+  cost: 4 # Slower than galoshes, hurts no slip users, but still a no slip after all.
+  components:
   - type: NoSlip
   - type: SlowedOverSlippery
-    slowdownModifier: 0.65
+    slowdownModifier: 0.6
   - type: SpeedModifierContactCapClothing
-    maxContactSprintSlowdown: 0.65
-    maxContactWalkSlowdown: 0.65
+    maxContactSprintSlowdown: 0.6
+    maxContactWalkSlowdown: 0.9 # Better than galoshes here but walk already prevents slip
 
 - type: trait
   id: SwiftFeet
@@ -77,7 +77,7 @@
   name: trait-temperature-tolerance-name
   description: trait-temptolerance-desc
   category: Quirks
-  cost: 2
+  cost: 2 # About as strong as winter boots each way, firmly a minor trait
   components:
   - type: TemperatureProtection 
           heatingCoefficient: 0.4
@@ -98,25 +98,25 @@
   name: trait-strengthened-immunity-name
   description: trait-stengthened-immunity-desc
   cattegory: Quirks
-  cost: 6
+  cost: 6 # Pretty strong but not more desirable than the other stat traits
   components:
   - type: Armor
     modifiers:
       coefficients:
-        Poison: 0.25
+        Poison: 0.4
 
 - type: trait
   id: StableGenes
   name: trait-stable-genes-name
   description: trait-stable-genes-desc
   cattegory: Quirks
-  cost: 2
+  cost: 2 # Extremely situational and decently weak
   components:
   - type: Armor
     modifiers:
-      coefficients: # Change it to 0.7 when the less muations part can be added [genetics]
-        Radiation: 0.4
-        Genetic: 0.4
+      coefficients: # Change it to 0.8 when the less muations part can be added [genetics]
+        Radiation: 0.6
+        Genetic: 0.6
 
 - type: trait
   id: Resourceful
@@ -130,6 +130,6 @@
     openOnActivate: false
     grid:
     - 0,0,2,2
-    maxItemSize: Large
+    maxItemSize: Small
   speciesRestrictions:
   - Slime # They already have a storage, albeit smaller.
