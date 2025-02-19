@@ -49,7 +49,7 @@
 
 - type: trait
   id: CarefulSteps
-  name: ttrait-careful-steps-name
+  name: trait-careful-steps-name
   description: trait-careful-steps-desc
   category: Quirks
   cost: 4 # Slower than galoshes, hurts no slip users, but still a no slip after all.
@@ -75,7 +75,7 @@
 - type: trait
   id: TemperatureTolerance
   name: trait-temperature-tolerance-name
-  description: trait-temptolerance-desc
+  description: trait-temperature-tolerance-desc
   category: Quirks
   cost: 2 # About as strong as winter boots each way, firmly a minor trait
   components:
@@ -96,8 +96,8 @@
 - type: trait
   id: StrengthenedImmunity
   name: trait-strengthened-immunity-name
-  description: trait-stengthened-immunity-desc
-  cattegory: Quirks
+  description: trait-strengthened-immunity-desc
+  category: Quirks
   cost: 6 # Pretty strong but not more desirable than the other stat traits
   components:
   - type: Armor
@@ -116,7 +116,7 @@
     modifiers:
       coefficients: # Change it to 0.8 when the less muations part can be added [genetics]
         Radiation: 0.6
-        Genetic: 0.6
+        Celluar: 0.6
 
 - type: trait
   id: Resourceful
