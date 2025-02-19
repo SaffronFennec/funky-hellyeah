@@ -59,7 +59,7 @@
   name: trait-unrevivable-name
   description: trait-unrevivable-desc
   category: Quirks
-  cost: -2
+  cost: -2 # it's basically the DNR trait
   components:
     - type: Unrevivable
 
