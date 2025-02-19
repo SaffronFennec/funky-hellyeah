@@ -5,9 +5,9 @@
   - type: ChangelingRule
   - type: GameRule
     minPlayers: 8
-    delay:
-      min: 30
-      max: 60
+    #delay: - funky
+    #  min: 30
+    #  max: 60
   - type: AntagObjectives
     objectives:
     - ChangelingStealDNAObjective
@@ -18,7 +18,7 @@
     agentName: changeling-roundend-name
     definitions:
     - prefRoles: [ Changeling ]
-      max: 5
+      max: 7
       playerRatio: 12
       lateJoinAdditional: true
       mindRoles:
@@ -30,14 +30,14 @@
   components:
   - type: GameRule
     minPlayers: 15
-    delay:
-      min: 240
-      max: 420
+    #delay: - funky
+    #  min: 240
+    #  max: 420
   - type: AntagSelection
     selectionTime: BeforeJobs
     definitions:
     - prefRoles: [ Traitor ]
-      max: 4
+      max: 6
       playerRatio: 15
       blacklist:
         components:
@@ -53,15 +53,15 @@
   components:
   - type: GameRule
     minPlayers: 15
-    delay:
-      min: 30
-      max: 60
+    #delay:
+    #  min: 30
+    #  max: 60
   - type: AntagSelection
     selectionTime: BeforeJobs
     agentName: changeling-roundend-name
     definitions:
     - prefRoles: [ Changeling ]
-      max: 4
+      max: 5
       playerRatio: 18
       lateJoinAdditional: true
       mindRoles:
@@ -72,9 +72,9 @@
   id: Calmops # For Dual Antag Gamemodes
   components:
   - type: GameRule
-    minPlayers: 30
+    minPlayers: 40 # Funky
   - type: LoadMapRule
-    mapPath: /Maps/Nonstations/nukieplanet.yml
+    mapPath: /Maps/_Goobstation/Nonstations/nukieplanet.yml
   - type: AntagSelection
     selectionTime: PrePlayerSpawn
     definitions:
@@ -111,8 +111,8 @@
     - prefRoles: [ Nukeops ]
       fallbackRoles: [ NukeopsCommander, NukeopsMedic ]
       spawnerPrototype: SpawnPointNukeopsOperative
-      max: 2
-      playerRatio: 15
+      max: 2 
+      playerRatio: 20 # Funky
       startingGear: SyndicateOperativeGearFull
       components:
       - type: NukeOperative
@@ -138,7 +138,7 @@
     definitions:
     - prefRoles: [ HeadRev ]
       max: 2
-      playerRatio: 20
+      playerRatio: 30 # Funky
       briefing:
         text: head-rev-role-greeting
         color: CornflowerBlue
@@ -165,16 +165,16 @@
   components:
   - type: BlobRule
   - type: GameRule
-    minPlayers: 15
-    delay: # 7-10 minutes
-      min: 420
-      max: 600
+    minPlayers: 30
+    delay: #10-20 minutes - Funky
+      min: 600
+      max: 1200
   - type: AntagSelection
     definitions:
     - prefRoles: [ Blob ]
       min: 1
       max: 2
-      playerRatio: 35 #players = 2 blobs
+      playerRatio: 35
       allowNonHumans: true
       blacklist:
         components:
@@ -195,10 +195,10 @@
     weight: 5
     duration: 1
     earliestStart: 50
-    minimumPlayers: 25
+    minimumPlayers: 30
     maxOccurrences: 2
   - type: BlobSpawnRule
     carrierBlobProtos:
     - SpawnPointGhostBlobRat
     playersPerCarrierBlob: 30
-    maxCarrierBlob: 2
+    maxCarrierBlob: 1
