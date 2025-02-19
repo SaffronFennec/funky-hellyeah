@@ -191,6 +191,7 @@
         damage:
           groups: # Funky
             Brute: -0.75
+          types: 
             Heat: -0.25
       - !type:ChemVomit
         probability: 0.04
