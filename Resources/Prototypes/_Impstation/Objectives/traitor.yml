@@ -191,6 +191,6 @@
     unique: true
     difficulty: 0.5
     icon:
-      sprite: _Impstation/Clothing/Neck/Cloaks/straight.rsi
+      sprite: Clothing/Eyes/Glasses/outlawglasses.rsi # Funky
       state: icon
   - type: AutoCompleteCondition
